@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using ARF.Models;
 
-namespace ARF.Repository.Interfaces
+namespace ARF.Repository
 {
-    internal interface iCountriesRepository
+    public interface iCountriesRepository
     {
         Country GetByID(string id);
         List<Country> GetAllCountries();

@@ -1,5 +1,5 @@
 ﻿using ARF.Models;
-using ARF.Repository.Interfaces;
+using ARF.Repository;
 using ARF.DAL;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ARF.Repository
 {
-    internal class CountriesRepository : iCountriesRepository
+    public class CountriesRepository : iCountriesRepository
     {
         public List<Country> GetAllCountries()
         {

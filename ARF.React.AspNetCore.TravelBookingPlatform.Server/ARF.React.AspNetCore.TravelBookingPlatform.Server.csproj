@@ -17,9 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ARF.Models\ARF.Models.csproj" />
     <ProjectReference Include="..\arf.react.aspnetcore.travelbookingplatform.client\arf.react.aspnetcore.travelbookingplatform.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\ARF.Repositories\ARF.Repositories.csproj" />
   </ItemGroup>
 
 </Project>
